@@ -18,7 +18,7 @@ class _SearchAppBarState extends State<SearchAppBar> {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      backgroundColor: Colors.red[300],
+      backgroundColor: Colors.cyan[300],
       leading: isSearching ? _buildSearchLeading() : _buildTitleLeading(),
       title: isSearching ? _buildSearchInput() : _buildTitle(),
       actions: isSearching ? _buildSearchActions() : _buildTitleActions(),
@@ -106,9 +106,9 @@ class _SearchAppBarState extends State<SearchAppBar> {
       itemBuilder: (BuildContext context, String suggestion) {
         return Container(
           decoration: BoxDecoration(
-            color: Colors.red[200],
+            color: Colors.cyan[200],
             border: Border.all(
-              color: Colors.red[200],
+              color: Colors.cyan[200],
             ),
           ),
           height: 70,

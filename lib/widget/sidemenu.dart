@@ -26,7 +26,7 @@ class _SideMenuState extends State<SideMenu> {
               ),
             ),
             decoration: BoxDecoration(
-              color: Colors.red[300],
+              color: Colors.cyan[300],
             ),
           ),
           ListTile(
